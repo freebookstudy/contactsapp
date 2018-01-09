@@ -36,7 +36,7 @@ module.exports = {
         }
       },
       '/mng' : {
-        target: 'http://localhost:8082',
+        target: 'http://220.230.122.21:8080/kakaomng',
         changeOrigin:true,
         pathRewrite: {
           '^/mng':''
